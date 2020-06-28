@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<!-- Stylesheets-->
 	<link rel="stylesheet" type="text/css" href="assests/stylesheets/main2.css">
 	<link rel="stylesheet" type="text/css" href="assests/stylesheets/animations.css">
 
+	<!-- Font and icons -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
 	<link rel="icon" href="assests/images/favicon1.ico" type="image/x-icon">
+	
+	<!-- myscript and fontawesome -->
 	<script src="https://kit.fontawesome.com/9bd5133f95.js" crossorigin="anonymous"></script>
 	<script src="assests/scripts/main.js"></script>
-	<title>मेरी &nbsp;&nbsp;Shiksha</title>
+
+	<title>Welcome!</title>
 </head>
 <body>
 	<header id="main">
-		<nav id="mySidenav" class="sidenav small">
+		
+		<nav id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="index.html">Home</a>
 			<a href="education.html">Education</a>
 			<a href="travel.html">Travel with Me</a>
 			<a href="food.html">Cook with Me</a>
 		</nav>
+
 		<a href="comingsoon.html" target="_blank"><p class="prof">Visit my Professional portfolio website!</p></a>
+		
 		<figure class="logo">
 			<img src="assests/images/logo.jpg" alt="Website Logo">
 		</figure>
+		
 		<hgroup class="logo">
 			<h1>Speedy.Site</h1>
 			<h2 class="right">Aditya Singhal</h2>
 		</hgroup>
+		
 		<div class="barmenu" onclick="myFunction(this), openNav()">
   		<div class="bar1"></div>
   		<div class="bar2"></div>
   		<div class="bar3"></div>
 		</div>
 
-		<nav id="myNavbar" class="navbar large">
-			<a href="index.html"><i class="fas fa-portrait"></i>&nbsp;Home</a>
-			<a href="education.html" class="active"><i class="fas fa-book-open"></i>&nbsp;Education</a>
+		<nav id="myNavbar" class="navbar">
+			<a href="#aboutme"><i class="fas fa-portrait"></i>&nbsp;About Me</a>
+			<a href="education.html"><i class="fas fa-book-open"></i>&nbsp;Education</a>
 			<a href="travel.html"><i class="fas fa-road"></i>&nbsp;Travel with Me</a>
-			<a href="food.html">Cook with Me&nbsp;<i class="fas fa-pizza-slice"></i></a>
+			<a href="food.html" style="margin-right: 0;">Cook with Me&nbsp;<i class="fas fa-pizza-slice"></i></a>
 		</nav>	
 
 	</header>
@@ -59,6 +68,7 @@
 					<p>The place where I Started my education! People say it's the best nursery school in Surat.&#128513;
 					I don't remeber anything , to tell you about it &#128517;, but you can see some pictures by clicking on the hill's Nursery image. </p>
 				</section>
+				
 				<section class="side-img">	
 					<img src="assests/images/hillsnursery.png" alt="pre-school">
 				</section>	
@@ -69,9 +79,10 @@
 			<section class="row">
 				<section class="side-img">
 					<h3>Elementry and High School</h3>
-					<img src="assests/images/radiantFake.jpg"alt="#" class="">
-					<img src="assests/images/radiantReal.jpg">
+					<img src="assests/images/radiantFake.jpg" alt="high school" class="">
+					<img src="assests/images/radiantReal.jpg" alt="high school">
 				</section>
+				
 				<section class="info">
 					<p>Radiant!
 					The school from which I Started 1st standard and bid farewell from. Many memories , many mischeifs , i miss it a lot!</p>
@@ -89,6 +100,7 @@
 					<h3>College</h3>
 					<p>Aha! Yaha toh 6 mahine bhi nhi bitaye ki vapis ghar aana pada!</p> <p class="display-big"><br><br> MNIT ka safar 4 August 2019 se shuru hua, jaha mere bahut naye dost bane, bahut kuch sikha bhi.<br><br>Yaha ki college life toh lit hai! Sphinx aur Blitzschlag , jaise bhari naam ke Annual fests hote hai! MNIT ke Treasure-Hunt events ke champions hai humara group.<br><br> Bas mere jaise khaudre ko ek pareshani he, street-food options toh bahut kum hai(compartively Surat).<br><br>Par fhir bhi , MNIT best hai! jo itne sundar campus me rehke bhi IIT ke liye rota hai, vo bhaad me jae!</p>
 				</section>
+				
 				<section class="side-img">
 					<img src="assests/images/logo.png" alt="MNIT" class="college">
 					<img src="assests/images/mnit2.jpg" alt="mnit prabha bhawan" class="college">
@@ -104,30 +116,32 @@
 				<li><a href="https://www.instagram.com/speedychital/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
 				<li><a href="https://twitter.com/singhaladitya8" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
 				<li><a href="https://linkedin.com/in/aditya-singhal-684a481a4/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>	
-				<li><a href="#facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://facebook.com/speedychital" target="_blank"><i class="fab fa-facebook"></i></a></li>
 			</ul>
 		</nav>
+		
 		<a href="#"><p class="feedback"><i class="fas fa-comment"></i>&nbsp; Feedback</p></a>
+		
 		<p class="copyright"> &copy; Copyright. Speedychital . All Rights Reserved.</p>
 	</footer>
 	
 	<script>
 		var topbutton = document.getElementById('topBtn');
 
-	window.onscroll = function() {scrollFunction()};
+		window.onscroll = function() {scrollFunction()};
 
-	function scrollFunction() {
-		if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			topbutton.style.display = "block";
-		} else {
-			topbutton.style.display = "none";
+		function scrollFunction() {
+			if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				topbutton.style.display = "block";
+			} else {
+				topbutton.style.display = "none";
+			}
 		}
-	}
 
-	function toTop() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
+		function toTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
 </script>
 </body>
 </html>

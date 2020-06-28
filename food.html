@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<!-- Stylesheets-->
 	<link rel="stylesheet" type="text/css" href="assests/stylesheets/main2.css">
 	<link rel="stylesheet" type="text/css" href="assests/stylesheets/animations.css">
 
+	<!-- Font and icons -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
 	<link rel="icon" href="assests/images/favicon1.ico" type="image/x-icon">
+	
+	<!-- myscript and fontawesome -->
 	<script src="https://kit.fontawesome.com/9bd5133f95.js" crossorigin="anonymous"></script>
 	<script src="assests/scripts/main.js"></script>
-	<title>मेरी &nbsp;&nbsp;Shiksha</title>
+
+	<title>Welcome!</title>
 </head>
 <body>
 	<header id="main">
-		<nav id="mySidenav" class="sidenav small">
+		
+		<nav id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="index.html">Home</a>
 			<a href="education.html">Education</a>
 			<a href="travel.html">Travel with Me</a>
 			<a href="food.html">Cook with Me</a>
 		</nav>
+
 		<a href="comingsoon.html" target="_blank"><p class="prof">Visit my Professional portfolio website!</p></a>
+		
 		<figure class="logo">
 			<img src="assests/images/logo.jpg" alt="Website Logo">
 		</figure>
+		
 		<hgroup class="logo">
 			<h1>Speedy.Site</h1>
 			<h2 class="right">Aditya Singhal</h2>
 		</hgroup>
+		
 		<div class="barmenu" onclick="myFunction(this), openNav()">
   		<div class="bar1"></div>
   		<div class="bar2"></div>
   		<div class="bar3"></div>
 		</div>
 
-		<nav id="myNavbar" class="navbar large">
-			<a href="index.html"><i class="fas fa-portrait"></i>&nbsp;Home</a>
+		<nav id="myNavbar" class="navbar">
+			<a href="#aboutme"><i class="fas fa-portrait"></i>&nbsp;About Me</a>
 			<a href="education.html"><i class="fas fa-book-open"></i>&nbsp;Education</a>
 			<a href="travel.html"><i class="fas fa-road"></i>&nbsp;Travel with Me</a>
-			<a href="food.html" class="active">Cook with Me&nbsp;<i class="fas fa-pizza-slice"></i></a>
+			<a href="food.html" style="margin-right: 0;">Cook with Me&nbsp;<i class="fas fa-pizza-slice"></i></a>
 		</nav>	
 
 	</header>
@@ -283,29 +292,31 @@
 				<li><a href="https://www.instagram.com/speedychital/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
 				<li><a href="https://twitter.com/singhaladitya8" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
 				<li><a href="https://linkedin.com/in/aditya-singhal-684a481a4/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>	
-				<li><a href="#facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://facebook.com/speedychital" target="_blank"><i class="fab fa-facebook"></i></a></li>
 			</ul>
 		</nav>
+		
 		<a href="#"><p class="feedback"><i class="fas fa-comment"></i>&nbsp; Feedback</p></a>
+		
 		<p class="copyright"> &copy; Copyright. Speedychital . All Rights Reserved.</p>
 	</footer>
 	<script>
 		var topbutton = document.getElementById('topBtn');
 
-	window.onscroll = function() {scrollFunction()};
+		window.onscroll = function() {scrollFunction()};
 
-	function scrollFunction() {
-		if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			topbutton.style.display = "block";
-		} else {
-			topbutton.style.display = "none";
+		function scrollFunction() {
+			if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				topbutton.style.display = "block";
+			} else {
+				topbutton.style.display = "none";
+			}
 		}
-	}
 
-	function toTop() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
-</script>
+		function toTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
 </body>
 </html>
