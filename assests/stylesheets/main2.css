@@ -420,7 +420,7 @@ em {
 
 .profile {
 	border-radius: 50%;
-	opacity: .5;
+	opacity: .8;
 	width: 250px;
 	margin: 0 22%;
 	height: auto;
@@ -463,11 +463,11 @@ em {
 	color: #fff;
 }
 
-.food-skill {
+.travel-skill {
 	text-align: center;
 	background-color: #616161;
 	padding: 2%;
-	width: 100%;
+	width: 20%;
 	color: #fff;
 }
 
@@ -514,6 +514,12 @@ footer {
 	position: relative;
 }
 
+.feedback {
+	font-size: 1.4em;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
 .social {
 	position: absolute;
 	bottom: 20px;
@@ -527,7 +533,7 @@ footer {
 	margin-right: 8%;
 	font-size: 1.4em;
 }
-.fab {
+footer .fab {
   padding: 20% 12%;
   text-align: center;
   text-decoration: none;
@@ -883,6 +889,7 @@ img.hover-shadow {
 	=======================================================
 
 */
+
 .short h2, .short p {
 	text-align: center;
 }
@@ -940,6 +947,7 @@ article p {
 }
 
 @media (min-width: 1200px) {
+	
 	footer {
 		margin-top: 4%;
 	}
