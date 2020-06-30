@@ -564,24 +564,9 @@ footer .fab {
   border: #007bb5 solid;
   border-radius: 25%;
 }
-.footer-nav {
+.fa-comment {
 	position: absolute;
-	right: 20px;
-	bottom: 10px;
-	width: 30%;
-	display: inline-block;
-	text-align: right;
-	font-size: .5em;
-	padding-bottom: 1%;
-	padding-right: 0;
-}
-
-.footer-nav a {
-	border-right: 1px solid black;
-	padding: 1%; 
-	margin-right: 1%;
-	color: rgba(255, 255, 255, 255);
-	text-decoration: none;
+	right: 200px;
 }
 
 .copyright {
